@@ -1,0 +1,283 @@
+/* --------------- Fonts ------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+
+/* -------------- Common Style ----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    /* height: 100vh; */
+    padding: 0 10%;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* ------------ Style Of Navbar section start -------------- */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ----------------Navbar Style End --------------- */
+
+/* ------- Header Text Style Section start ------- */
+
+.header-text-container {
+    width: 100%;
+    text-align: center;
+    margin: 90px 0;
+}
+
+.header-text-container h2 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.header-text-container p {
+    color: #727272;
+}
+
+.header-text-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 6px;
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* ------------- Header Text Style Section End ------------------- */
+
+/* ---------------- Banner Section Start ------------------------- */
+
+.banner {
+    margin-top: 50px;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* ---------------- Banner Section End ------------------------- */
+
+Main {
+    width: 100%;
+    padding: 0 10%;
+}
+
+/* ------- Our Features section Styles start ----------  */
+
+.Our-Features-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
+
+}
+
+.left-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.left-section img {
+    width: 270px;
+    height: 270px;
+}
+
+.right-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.right-section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 6px;
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* ------- Our Features section Styles start ----------  */
+
+/* -------  love and enjoy section start ----------  */
+
+.love-enjoy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.love-enjoy-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 24px;
+}
+
+.love-enjoy-section p {
+    margin-bottom: 30px;
+}
+
+.love-enjoy-subsection {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.love-enjoy-subsection h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.love-enjoy-subsection p {
+    margin-top: 10px;
+}
+
+.love-enjoy-right img {
+    width: 608px;
+    height: 882px;
+}
+
+/* .ten-years {
+    
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+} */
+
+/* -------  love and enjoy styles End ----------  */
+
+/* -------  Some Facts container styles start ----------  */
+
+.some-facts-container {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.some-facts-container h2 {
+    margin-bottom: 20px;
+}
+
+.some-facts {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    margin: 60px 30px;
+}
+
+.some-facts-items {
+    text-align: center;
+    /* border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px 20px; */
+    /* transform: rotate(90deg); */
+    /* box-sizing: border-box; */
+    width: 100%;
+    border: solid #FF900E 1px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.some-facts-items h3 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.some-facts-items p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* -------  Some Facts container styles End ----------  */
+
+/* -------  Our Sponsors container styles start ----------  */
+
+.our-sponsor-container {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.our-sponsor-container h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.our-sponsor-container p {
+    margin-bottom: 30px;
+}
+
+.our-sponsors {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/* ----------Our Sponsors container styles end--------- */
+
+/* ----------------- Light Footer -------------- */
+
+.light-footer {
+    width: 100%;
+    height: 80px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    color: #424242;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
